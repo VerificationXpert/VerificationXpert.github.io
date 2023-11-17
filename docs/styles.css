@@ -59,6 +59,13 @@ body, ul {
     margin-top: 10px;
 }
 
+.wrapper {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+}
+
+
 /* Position the footer above the sidebar */
 .footer {
     position: fixed;
@@ -69,4 +76,24 @@ body, ul {
     padding: 10px;
     text-align: center;
     z-index: 1000; /* Ensure a high z-index value to keep it above other content */
+    flex: 1; /* Allow the content to grow and fill the available space */
 }
+
+/* Styles for screens with a maximum width of 768px (typical for mobile devices) */
+@media (max-width: 768px) {
+    /* Add your mobile-specific styles here */
+    body {
+        font-size: 16px; /* Adjust font size for better readability on small screens */
+    }
+
+    /* Example of hiding an element on small screens */
+    .hide-on-mobile {
+        display: none;
+    }
+
+    /* Example of changing the layout for small screens */
+    .mobile-layout {
+        flex-direction: column;
+    }
+}
+
