@@ -6,18 +6,12 @@
     <title>VerificationXpert</title>
     <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS stylesheet -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="load-sidebar.js"></script>
 </head>
 <body>
    <div class="wrapper">
     <!-- Side Menu -->
-    <nav class="side-menu">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="courses.html">Courses</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+    <div id="sidebar-container"></div>
 
     <!-- Main Content -->
     <main class="main-content">
@@ -34,7 +28,7 @@
 
     </main>
    </div>
-<footer class="footer">
+<footer id="page-footer" class="hidden">
         <p>
             Disclaimer: The information, source code, and designs presented on this website are intended solely for educational and academic purposes. They are provided as-is and without any warranties, either expressed or implied. All materials shared here are publicly available online in one form or another.
         </p>
