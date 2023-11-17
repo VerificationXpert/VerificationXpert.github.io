@@ -58,3 +58,15 @@ body, ul {
     font-weight: bold;
     margin-top: 10px;
 }
+
+/* Position the footer above the sidebar */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f0; /* Adjust background color as needed */
+    padding: 10px;
+    text-align: center;
+    z-index: 1000; /* Ensure a high z-index value to keep it above other content */
+}
