@@ -54,6 +54,19 @@ body, ul {
     margin-top: 20px;
 }
 
+/* CSS for the top banner */
+   .top-banner {
+       background-color: #0073e6;
+       color: #fff;
+       text-align: center;
+       padding: 10px 0;
+   }
+
+   .logo {
+       max-width: 100%;
+       height: auto;
+   }
+
 
 /* Position the footer above the sidebar */
 .footer {
