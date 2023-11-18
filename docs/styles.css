@@ -36,10 +36,22 @@ body, ul {
     margin-top: 10px;
 }
 
+.btn:hover {
+    background-color: #005bbf;
+}
+
 .wrapper {
         min-height: 100vh;
         display: flex;
         flex-direction: column;
+}
+
+.offer {
+    background-color: #ffc107;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
 }
 
 
