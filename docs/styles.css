@@ -380,8 +380,7 @@ body, ul {
 	    color: #fff;
 	    width: 20vw;
 	    float: left;
-	    height: 80%;
-	    overflow-y: auto;
+	    height: 100%;
 	}
 	/* Main content area */
 	.main-content {
