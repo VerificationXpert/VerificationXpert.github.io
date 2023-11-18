@@ -28,15 +28,15 @@ const sidebar = document.getElementById('sidebar-container');
 
         document.addEventListener('mousemove', (e) => {
             const mouseX = e.clientX;
-            if (mouseX <= 40 && !isSidebarVisible) {
+            if (mouseX <= '20vw' && !isSidebarVisible) {
                 // Show sidebar when mouse pointer is near the left edge
-                sidebar.style.width = '250px';
+                sidebar.style.width = '20vw';
                 sidebar.style.left = '0';
                 isSidebarVisible = true;
             } else if (mouseX > 250 && isSidebarVisible) {
                 // Hide sidebar when mouse pointer moves away
                 sidebar.style.width = '0';
-                sidebar.style.left = '-250px';
+                sidebar.style.left = '-20vw';
                 isSidebarVisible = false;
             }
         });
