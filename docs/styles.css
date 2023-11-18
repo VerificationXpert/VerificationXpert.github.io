@@ -132,6 +132,7 @@ body, ul {
 	.main-content {
 	    margin-left: auto;
 	    padding: 20px;
+	    flex:1;
 	}
 	
 	/* Styling for the upcoming course section */
@@ -194,6 +195,7 @@ body, ul {
 	.main-content {
 	    margin-left: auto;
 	    padding: 20px;
+	    flex:1;
 	}
 	
 	/* Styling for the upcoming course section */
@@ -258,6 +260,7 @@ body, ul {
 	.main-content {
 	    margin-left: auto;
 	    padding: 20px;
+	    flex:1;
 	}
 	
 	/* Styling for the upcoming course section */
@@ -323,6 +326,7 @@ body, ul {
 	.main-content {
 	    margin-left: 300px;
 	    padding: 20px;
+	    flex:1;
 	}
 	
 	/* Styling for the upcoming course section */
@@ -386,6 +390,7 @@ body, ul {
 	.main-content {
 	    margin-left: 200px;
 	    padding: 20px;
+	    flex:1;
 	}
 	
 	/* Styling for the upcoming course section */
@@ -450,6 +455,7 @@ body, ul {
 	.main-content {
 	    margin-left: 300px;
 	    padding: 20px;
+	    flex:1;
 	}
 	
 	/* Styling for the upcoming course section */
