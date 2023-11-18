@@ -69,11 +69,11 @@ body, ul {
    }
 
    /* CSS for social media icons */
+        /*
         .social-media-icons {
             text-align: center;
             margin: 20px 0;
         }
-        /*
 
 	.social-media-icons a {
             display: inline-block;
