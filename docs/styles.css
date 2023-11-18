@@ -68,6 +68,18 @@ body, ul {
        height: 100px;
    }
 
+   /* CSS for social media icons */
+        .social-media-icons {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .social-media-icons a {
+            display: inline-block;
+            margin: 0 10px;
+            font-size: 24px;
+            color: #0073e6;
+        }
 
 /* Position the footer above the sidebar */
 .footer {
