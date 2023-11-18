@@ -252,15 +252,17 @@ body, ul {
 	    background-color: #333;
 	    color: #fff;
 	    width: 20vw;
-	    float: left;
-	    height: 80%;
+	    float: none;
+	    height: 100%;
 	    overflow-y: auto;
+	    position:fixed;
 	}
 	/* Main content area */
 	.main-content {
-	    margin-left: auto;
+	    margin-left: 20vw;
 	    padding: 20px;
 	    flex:1;
+	    position:relative;
 	}
 	
 	/* Styling for the upcoming course section */
@@ -318,15 +320,17 @@ body, ul {
 	    background-color: #333;
 	    color: #fff;
 	    width: 20vw;
-	    float: left;
-	    height: 80%;
+	    float: none;
+	    height: 100%;
 	    overflow-y: auto;
+	    position:fixed;
 	}
 	/* Main content area */
 	.main-content {
-	    margin-left: 300px;
+	    margin-left: 20vw;
 	    padding: 20px;
 	    flex:1;
+	    position:relative;
 	}
 	
 	/* Styling for the upcoming course section */
@@ -383,16 +387,18 @@ body, ul {
 	    background-color: #333;
 	    color: #fff;
 	    width: 20vw;
-	    float: left;
+	    float: none;
 	    height: 100%;
+	    overflow-y: auto;
+	    position:fixed;
 	}
 	/* Main content area */
 	.main-content {
-	    margin-left: 200px;
+	    margin-left: 20vw;
 	    padding: 20px;
 	    flex:1;
+	    position:relative;
 	}
-	
 	/* Styling for the upcoming course section */
 	.upcoming-course {
 	    background-color: #f0f0f0;
@@ -447,15 +453,17 @@ body, ul {
 	    background-color: #333;
 	    color: #fff;
 	    width: 20vw;
-	    float: left;
-	    height: 80%;
+	    float: none;
+	    height: 100%;
 	    overflow-y: auto;
+	    position:fixed;
 	}
 	/* Main content area */
 	.main-content {
-	    margin-left: 300px;
+	    margin-left: 20vw;
 	    padding: 20px;
 	    flex:1;
+	    position:relative;
 	}
 	
 	/* Styling for the upcoming course section */
