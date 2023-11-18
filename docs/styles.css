@@ -56,7 +56,7 @@ body, ul {
 
 /* CSS for the top banner */
    .top-banner {
-       position: fixed;
+       /*position: fixed;*/
        background-color: #0073e6;
        color: #fff;
        text-align: center;
