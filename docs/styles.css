@@ -93,6 +93,9 @@ body, ul {
     .sidebar {
         width: 100%;
     }
+        .sidebar-container {
+	    width: 50px;
+	}
 	.side-menu {
 	    background-color: #333;
 	    color: #fff;
@@ -155,6 +158,9 @@ body, ul {
     .sidebar {
         width: 250px;
     }
+        .sidebar-container {
+	    width: 100px;
+	}
 	.side-menu {
 	    background-color: #333;
 	    color: #fff;
@@ -221,6 +227,9 @@ body, ul {
     .sidebar {
         width: 300px;
     }
+        .sidebar-container {
+	    width: 300px;
+	}
 	.side-menu {
 	    background-color: #333;
 	    color: #fff;
@@ -283,6 +292,9 @@ body, ul {
     .sidebar {
         width: 350px;
     }
+        .sidebar-container {
+	    width: 200px;
+	}
 	.side-menu {
 	    background-color: #333;
 	    color: #fff;
@@ -345,6 +357,9 @@ body, ul {
     .sidebar {
         width: 400px;
     }
+        .sidebar-container {
+	    width: 300px;
+	}
 	.side-menu {
 	    background-color: #333;
 	    color: #fff;
