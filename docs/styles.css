@@ -56,6 +56,71 @@ body, ul {
     flex: 1; /* Allow the content to grow and fill the available space */
 }
 
+/* Small screens (up to 375px) */
+@media (max-width: 375px) {
+    /* Headers styles */
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+
+    /* Paragraph styles */
+    p {
+        font-size: 16px;
+    }
+
+    /* Image styles */
+    img {
+        max-width: 100%;
+    }
+
+    /* Title styles */
+    .title {
+        font-size: 18px;
+    }
+
+    /* Footer styles */
+    footer {
+        font-size: 14px;
+    }
+
+    /* Sidebar styles */
+    .sidebar {
+        width: 100%;
+    }
+        .sidebar-container {
+	    width: 50px;
+	}
+	.side-menu {
+	    background-color: #333;
+	    color: #fff;
+	    width: 120px;
+	    position: fixed;
+	    top: 0;
+	    left: 0;
+	    height: 100%;
+	    overflow-y: auto;
+	}
+	/* Main content area */
+	.main-content {
+	    margin-left: 120px;
+	    padding: 20px;
+	}
+	
+	/* Styling for the upcoming course section */
+	.upcoming-course {
+	    background-color: #f0f0f0;
+	    padding: 20px;
+	    margin-bottom: 20px;
+	    width: fit-content;
+	}
+
+}
 /* Small screens (up to 425px) */
 @media (max-width: 425px) {
     /* Headers styles */
