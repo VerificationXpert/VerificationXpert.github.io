@@ -122,7 +122,7 @@ body, ul {
 
 }
 /* Small screens (up to 425px) */
-@media (max-width: 425px) {
+@media (min-width: 376) and (max-width: 425px) {
     /* Headers styles */
     h1 {
         font-size: 24px;
