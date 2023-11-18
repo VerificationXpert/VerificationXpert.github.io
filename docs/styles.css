@@ -186,13 +186,9 @@ body, ul {
 	.side-menu {
 	    background-color: #333;
 	    color: #fff;
-	    width: 150px;
-	    position: fixed;
-	    top: 0;
-	    left: 0;
-	    height: 100%;
-	    overflow-y: auto;
-	    display: none;
+	    width: 100%;
+            float: none;
+            padding: 20px;
 	}
 	/* Main content area */
 	.main-content {
@@ -253,13 +249,10 @@ body, ul {
 	.side-menu {
 	    background-color: #333;
 	    color: #fff;
-	    width: 99px;
-	    position: fixed;
-	    top: 0;
-	    left: 0;
-	    height: 100%;
+	    width: 20vw;
+	    float: left;
+	    height: 80%;
 	    overflow-y: auto;
-	    display: none;
 	}
 	/* Main content area */
 	.main-content {
@@ -321,11 +314,9 @@ body, ul {
 	.side-menu {
 	    background-color: #333;
 	    color: #fff;
-	    width: 299px;
-	    position: fixed;
-	    top: 0;
-	    left: 0;
-	    height: 100%;
+	    width: 20vw;
+	    float: left;
+	    height: 80%;
 	    overflow-y: auto;
 	}
 	/* Main content area */
@@ -387,11 +378,9 @@ body, ul {
 	.side-menu {
 	    background-color: #333;
 	    color: #fff;
-	    width: 199px;
-	    position: fixed;
-	    top: 0;
-	    left: 0;
-	    height: 100%;
+	    width: 20vw;
+	    float: left;
+	    height: 80%;
 	    overflow-y: auto;
 	}
 	/* Main content area */
@@ -453,11 +442,9 @@ body, ul {
 	.side-menu {
 	    background-color: #333;
 	    color: #fff;
-	    width: 299px;
-	    position: fixed;
-	    top: 0;
-	    left: 0;
-	    height: 100%;
+	    width: 20vw;
+	    float: left;
+	    height: 80%;
 	    overflow-y: auto;
 	}
 	/* Main content area */
