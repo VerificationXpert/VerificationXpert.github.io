@@ -1,0 +1,63 @@
+---
+// @ts-ignore
+import { Icon } from "astro-icon";
+
+const features = [
+  {
+    title: "Practical Learning with Cocotb",
+    description:
+      "Provides hands-on experience in RTL Verification using Cocotb, allowing learners to apply theoretical concepts in real-world scenarios",
+    icon: "bx:bxs-briefcase",
+  },
+  {
+    title: "Comprehensive Course Material",
+    description:
+      "Detailed study materials covering all aspects of design and verification with Cocotb, ensuring a thorough understanding of the subject.",
+    icon: "bx:bxs-window-alt",
+  },
+  {
+    title: "Gitclassroom for Lab Assignments",
+    description:
+      "Utilizes Gitclassroom to manage lab sessions and assignments, offering a streamlined and collaborative learning environment for students.  ",
+    icon: "bx:bxs-data",
+  },
+  {
+    title: "Expert Instructors",
+    description:
+      "led by industry professionals with extensive experience in RTL design and verification, providing valuable insights and practical knowledge.",
+    icon: "bx:bxs-bot",
+  },
+  {
+    title: "Interactive Learning Sessions",
+    description:
+      "Includes interactive sessions and Q&A opportunities, allowing students to engage directly with instructors and peers for a more immersive learning experience!",
+    icon: "bx:bxs-file-find",
+  },
+];
+---
+
+<div class="mt-16 md:mt-0">
+  <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
+    Shaping the Future of Verification Engineering: 
+  </h2>
+  <p class="text-lg mt-4 text-slate-600">
+    Our mission is to develop highly skilled verification engineers proficient in Python-based RTL verification. 
+    By focusing on Python, a leading language in software development, we aim to enhance the capabilities of our engineers, ensuring they are well-prepared to meet the challenges and demands of the modern technology landscape
+  </p>
+</div>
+
+<div class="grid sm:grid-cols-2 md:grid-cols-3 mt-16 gap-16">
+  {
+    features.map((item) => (
+      <div class="flex gap-4 items-start">
+        <div class="mt-1 bg-black rounded-full  p-2 w-8 h-8 shrink-0">
+          <Icon class="text-white" name={item.icon} />
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg">{item.title}</h3>{" "}
+          <p class="text-slate-500 mt-2 leading-relaxed">{item.description}</p>
+        </div>
+      </div>
+    ))
+  }
+</div>
