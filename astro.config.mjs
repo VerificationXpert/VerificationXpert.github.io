@@ -16,6 +16,6 @@ export default defineConfig({
     sitemap(),
   ],
   redirects: {
-    '/course': '/courses'
+    '/courses.html': '/courses'
   }
 });
