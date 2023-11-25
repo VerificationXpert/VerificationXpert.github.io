@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Digital Design and Verification with SystemVerilog and Cocotb - 2024"
+title: "Digital Design and Verification with SystemVerilog and Cocotb - 2024 - Student Version"
 snippet: "."
 image: {
     src: "https://camo.githubusercontent.com/df711be3c065d787e4e15f25ea6d04b8405bb37cd2a26e77131547d2f567ec98/68747470733a2f2f61736369696e656d612e6f72672f612f3331373232302e737667",
@@ -14,6 +14,8 @@ tags: [cocotb, RTL, verification, design, python]
 
 This 12-week online course provides comprehensive coverage of digital design principles using SystemVerilog and their verification using cocotb. Participants will gain practical skills and knowledge necessary for successful careers in digital design and verification.
 
+* Target Learners: Current students or freshers who wants to pursue career in VLSI domain.
+    * Suitable for who don't know much about systemverilog.
 * Duration: 12 Weeks
 * Course Type: Online
 * Starting Date: To Be Updated Soon
