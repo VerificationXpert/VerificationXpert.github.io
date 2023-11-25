@@ -4,6 +4,7 @@ import image from "@astrojs/image";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 import partytown from "@astrojs/partytown";
+import { remarkReadingTime } from './remark-reading-time.mjs';
 
 // https://astro.build/config
 export default defineConfig({
@@ -23,5 +24,8 @@ export default defineConfig({
   ],
   redirects: {
     '/courses.html': '/courses'
-  }
+  },
+  markdown: {
+    remarkPlugins: [remarkReadingTime],
+  },
 });

@@ -14,7 +14,8 @@ export async function getStaticPaths() {
 
 // Get the entry directly from the prop on render
 const { entry } = Astro.props;
-const { Content } = await entry.render();
+//const { Content } = await entry.render();
+const { Content, remarkPluginFrontmatter } = await entry.render();
 ---
 
 <Layout title={entry.data.title}>
@@ -30,6 +31,10 @@ const { Content } = await entry.render();
       <div class="flex gap-2 mt-3 items-center flex-wrap md:flex-nowrap">
         <span class="text-gray-400">
           {entry.data.author}
+        </span>
+        <span class="text-gray-400">•</span> 
+        <span class="text-gray-400">
+          {remarkPluginFrontmatter.minutesRead}
         </span>
         <span class="text-gray-400">•</span>
         <time
