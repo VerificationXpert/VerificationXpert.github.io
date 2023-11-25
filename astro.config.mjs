@@ -15,4 +15,7 @@ export default defineConfig({
     mdx(),
     sitemap(),
   ],
+  redirects: {
+    '/course': '/courses'
+  }
 });
