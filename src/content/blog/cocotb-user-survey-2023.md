@@ -6,7 +6,7 @@ image: {
     src: "https://www.cocotb.org/assets/blog/2023-06-17-user-survey-2023/12-enjoy.svg",
     alt: "Cocotb User Survey"
 }
-publishDate: "2023-11-25 12:15"
+publishDate: "2023-11-25 3:15"
 category: "Insights"
 author: "Srinivas Siripurapu"
 tags: ["CocotbUserSurvey2023","CocotbTrainingMaterials","CocotbTutorialsandResources","CocotbLearningResources"]

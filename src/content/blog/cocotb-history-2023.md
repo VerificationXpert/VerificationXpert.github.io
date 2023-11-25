@@ -6,7 +6,7 @@ image: {
     src: "https://media.licdn.com/dms/image/D5622AQGItr4dyJhsBg/feedshare-shrink_1280/0/1695574525280?e=1703721600&v=beta&t=DNQ6ECFzvAwzjEs3OgbIWCoipnwLA8AoXgwnHQ0qsCg",
     alt: "Cocotb"
 }
-publishDate: "2023-11-25 11:40"
+publishDate: "2023-11-25 2:40"
 category: "History"
 author: "Srinivas Siripurapu"
 tags: ["Cocotb","Cocotb10Years"]
