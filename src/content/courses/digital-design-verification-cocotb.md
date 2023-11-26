@@ -18,9 +18,10 @@ This 12-week online course provides comprehensive coverage of digital design pri
     * Suitable for who don't know much about systemverilog.
 * Duration: 12 Weeks
 * Course Type: Online
-* Starting Date: To Be Updated Soon
+* Starting Date: 3rd Week of Jan, 2024
 * Registration Deadline: To Be Updated Soon
 * Available Seats: 10
+* Mode : Zoom
 
 ## Course Contents
 - Week 1-2: Introduction to Linux and Python Basics (Prerequisites)
