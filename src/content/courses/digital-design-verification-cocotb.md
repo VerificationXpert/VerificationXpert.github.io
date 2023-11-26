@@ -20,7 +20,7 @@ This 12-week online course provides comprehensive coverage of digital design pri
 * Course Type: Online
 * Starting Date: To Be Updated Soon
 * Registration Deadline: To Be Updated Soon
-
+* Available Seats: 10
 
 ## Course Contents
 - Week 1-2: Introduction to Linux and Python Basics (Prerequisites)
