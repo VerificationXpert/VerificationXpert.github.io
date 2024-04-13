@@ -36,6 +36,30 @@ const features = [
 ];
 ---
 
+<style>
+    .banner {
+        width: 100%;
+        height: 40px;
+        background-color: #f2f2f2;
+        color: black;
+        padding: 10px 0;
+        box-sizing: border-box;
+        overflow: hidden;
+        white-space: nowrap;
+        position: relative;
+    }
+    .scroll-text {
+        position: absolute;
+        width: auto;
+        white-space: nowrap;
+        animation: scroll 100s linear infinite;
+    }
+    @keyframes scroll {
+        0% { transform: translateX(100%); }
+        100% { transform: translateX(-100%); }
+    }
+</style>
+
 <div class="mt-16 md:mt-0">
   <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
     Shaping the Future of Verification Engineering: 
@@ -44,6 +68,12 @@ const features = [
     Our mission is to develop highly skilled verification engineers proficient in Python-based RTL verification. 
     By focusing on Python, a leading language in software development, we aim to enhance the capabilities of our engineers, ensuring they are well-prepared to meet the challenges and demands of the modern technology landscape
   </p>
+</div>
+
+<div class="banner">
+    <div class="scroll-text">
+        Exciting New Course: "Cocotb: Python-based RTL Verification" – Enroll Now for Hands-On Learning!. Check 'Courses' section for more details
+    </div>
 </div>
 
 <div class="grid sm:grid-cols-2 md:grid-cols-3 mt-16 gap-16">
