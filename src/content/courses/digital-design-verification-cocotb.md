@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: "Digital Design and Verification with SystemVerilog and Cocotb - 2024 - Student Version"
 snippet: "."
 image: {
