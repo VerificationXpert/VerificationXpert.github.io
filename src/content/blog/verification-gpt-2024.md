@@ -3,7 +3,7 @@ draft: false
 title: "The Future of RTL Verification: VerificationGPT"
 snippet: "."
 image: {
-    src: "https://repository-images.githubusercontent.com/603395580/b12aa765-1d6b-4bd5-a838-919155bccb0c",
+    src: "verificationgpt.png",
     alt: "verificationGPT"
 }
 publishDate: "2024-04-21 00:01"
