@@ -3,7 +3,7 @@ draft: false
 title: "The Future of RTL Verification: VerificationGPT"
 snippet: "."
 image: {
-    src: "verificationgpt.png",
+    src: "https://www.verificationxpert.com/verificationgpt.png",
     alt: "verificationGPT"
 }
 publishDate: "2024-04-21 00:01"
