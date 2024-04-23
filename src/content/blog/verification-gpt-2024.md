@@ -12,6 +12,10 @@ author: "Srinivas Siripurapu"
 tags: [chatGPT, testGPT, verificationGPT, AI Assistant,cocotb, RTL, verification, design, python]
 ---
 
+
+![](https://www.verificationxpert.com/verificationgpt.png)
+
+
 #### What is VerificationGPT?
 
 The landscape of ASIC and FPGA design is on the cusp of a transformation, powered by the integration of AI technologies. Current tools like TestGPT from Codium AI have revolutionized code testing in programming languages such as Python and JavaScript. However, the unique challenges of Register Transfer Level (RTL) development have yet to fully benefit from these advancements. This is where the concept of VerificationGPT enters—a visionary approach that could potentially redefine RTL verification.
