@@ -151,7 +151,7 @@ details > summary::-webkit-details-marker {
     <thead>
         <tr>
             <th>Course Options</th>
-            <th> Price </th>
+            <th> Price <sup> †† </sup> </th>
             <th>Lectures</th>
             <th>Lab Assignments</th>
             <th>Capstone Project</th>
@@ -161,7 +161,7 @@ details > summary::-webkit-details-marker {
     <tbody>
         <tr>
             <td><strong>Option 1</strong></td>
-            <td>&#8377;10,000/-</td>
+            <td>&#8377;<s> 10,000 </s> 6500/-</td>
             <td>&#10003;</td>
             <td>&#10003;</td>
             <td>&#10060;</td>
@@ -169,7 +169,7 @@ details > summary::-webkit-details-marker {
         </tr>
         <tr>
             <td><strong>Option 2 </strong> No Github Copilot Access<sup> † </sup> </td>
-            <td>&#8377;16,000/-</td>
+            <td>&#8377;<s>16,000</s>9500/-</td>
             <td>&#10003;</td>
             <td>&#10003;</td>
             <td>&#10003;</td>
@@ -177,7 +177,7 @@ details > summary::-webkit-details-marker {
         </tr>
         <tr>
             <td><strong>Option 3</strong> Github Copilot access for project only</td>
-            <td>&#8377;17,500/-</td>
+            <td>&#8377;<s>17,500</s>11500/-</td>
             <td>&#10003;</td>
             <td>&#10003;</td>
             <td>&#10003;</td>
@@ -185,7 +185,7 @@ details > summary::-webkit-details-marker {
         </tr>
         <tr>
             <td><strong>Option 4</strong> Github Copilot access for entire course duration </td>
-            <td>&#8377;20,000/-</td>
+            <td>&#8377;<s>20,000</s>14500/-</td>
             <td>&#10003;</td>
             <td>&#10003;</td>
             <td>&#10003;</td>
@@ -194,7 +194,7 @@ details > summary::-webkit-details-marker {
     </tbody>
 </table>
 
-
+> <sup> †† </sup> You can pay only after lectures (before project) only if you are satisfied with the course.  
 > <sup> † </sup> Eligible students can access GitHub Copilot for free directly from GitHub. This offer is part of GitHub's commitment to supporting educational initiatives and enhancing learning experiences with advanced tools. For more details, students should visit the official GitHub website.
 ## About GitHub Copilot
 
